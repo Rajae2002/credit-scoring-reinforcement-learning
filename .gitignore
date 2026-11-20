@@ -1,0 +1,26 @@
+# PyInstaller
+build/
+dist/
+*.spec
+
+# Local launcher
+launcher.py
+# Python
+__pycache__/
+*.py[cod]
+*.so
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Streamlit
+.streamlit/secrets.toml
+
+# Temporary files
+*.log
+.DS_Store
